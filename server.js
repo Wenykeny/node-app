@@ -3,7 +3,7 @@ const app = express()
 const port = 5000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Welcome! This is BlackBeard\'s web server...')
 })
 
 app.listen(port, () => {
